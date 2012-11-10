@@ -11,3 +11,4 @@ To make it work you should generate your own API key and Secret on http://www.la
 * set the API_KEY variable to your API key
 * set the API_SECRET variable to your Secret
 
+For a successfuly build you must also checkout the SimpleLibrary project!
