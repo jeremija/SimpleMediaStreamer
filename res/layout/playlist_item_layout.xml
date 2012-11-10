@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+	<ImageView
+	    android:id="@+id/imageNowPlaying"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:contentDescription="@string/track_playing_content_desc"
+	    android:src="@android:drawable/ic_media_play"
+	    android:visibility="invisible" />
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_vertical"
+	    android:orientation="vertical" >
+      
+		<TextView
+		    android:id="@+id/trackTitle"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:hint="@string/track_title"
+		    android:text=""
+		    android:textAppearance="?android:attr/textAppearanceMedium" />
+		
+		<TextView
+		    android:id="@+id/trackAuthor"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/track_author"
+		    android:textAppearance="?android:attr/textAppearanceSmall" />
+		
+		<TextView
+		    android:id="@+id/trackUrl"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:hint="@string/track_url"
+		    android:textAppearance="?android:attr/textAppearanceSmall"
+		    android:visibility="gone" />
+		  </LinearLayout>
+
+</LinearLayout>

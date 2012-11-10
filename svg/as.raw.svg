@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="256" height="256" id="svg16748">
+  <defs id="defs16750">
+    <linearGradient id="linearGradient4845">
+      <stop style="stop-color:#d01f3c;stop-opacity:1" offset="0" id="stop4847"/>
+      <stop style="stop-color:#d01f3c;stop-opacity:1" offset="0.5" id="stop4853"/>
+      <stop style="stop-color:#d32c48;stop-opacity:1" offset="0.5" id="stop4855"/>
+      <stop style="stop-color:#eb9fab;stop-opacity:1" offset="1" id="stop4849"/>
+    </linearGradient>
+    <linearGradient x1="239.74998" y1="263.20898" x2="239.74998" y2="119.94179" id="linearGradient4851" xlink:href="#linearGradient4845" gradientUnits="userSpaceOnUse"/>
+    <linearGradient x1="239.74998" y1="263.20898" x2="239.74998" y2="119.94179" id="linearGradient4862" xlink:href="#linearGradient4845" gradientUnits="userSpaceOnUse"/>
+    <linearGradient x1="239.74998" y1="263.20898" x2="239.74998" y2="119.94179" id="linearGradient4866" xlink:href="#linearGradient4845" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.486812,0,0,1.486812,-232.8706,-178.825)"/>
+  </defs>
+  <g style="display:inline" id="layer3">
+    <rect width="256.00003" height="256.00003" x="5.9030761e-05" y="0.18046308" style="fill:url(#linearGradient4866);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline" id="rect1342"/>
+  </g>
+  <g style="display:inline" id="layer1">
+    <path d="M 19.950659,128.18048 C 19.950659,164.08699 49.092174,193.2285 84.998684,193.2285 C 105.33955,193.2285 123.52137,183.84447 135.45737,169.20719 L 126.09442,149.41401 C 118.42977,164.07435 102.68909,174.0858 84.998684,174.0858 C 59.644302,174.0858 39.046901,153.53486 39.046901,128.18048 C 39.046901,103.31896 59.995576,82.228693 84.998684,82.228693 C 102.67698,82.228693 119.40008,91.75828 127.58508,110.50044 C 133.36994,123.74668 141.71479,143.11897 151.8747,165.59903 C 161.9882,187.97643 179.35247,192.67095 196.23081,192.67095 C 208.51229,192.67093 236.04949,182.96962 236.04949,153.40982 C 236.04949,132.59513 223.97256,124.96684 212.30696,120.93227 C 203.73357,117.96713 198.8419,116.58464 187.21701,112.24371 C 180.20379,109.62487 175.22959,105.033 175.22959,96.864498 C 175.22957,79.489702 199.93456,77.184148 210.82015,91.521268 L 224.61962,84.087208 C 218.31393,73.798989 210.66973,65.269743 191.95622,65.269743 C 172.76033,65.269743 157.99186,77.077945 157.99186,97.654367 C 157.99186,116.55649 169.6503,124.06889 182.43133,129.48144 C 190.46947,132.88542 200.44558,136.38627 208.96163,139.61034 C 225.5303,145.88304 217.65174,174.36457 194.88338,174.36457 C 179.26764,174.36457 172.45801,167.09806 169.25857,160.10704 C 162.2212,144.72996 150.14737,117.38732 142.38307,99.127976 C 134.10058,79.649996 112.91409,63.132451 84.998684,63.132451 C 49.854389,63.132451 19.950659,92.181353 19.950659,128.18048 z " style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.56466878" id="path16805"/>
+  </g>
+</svg>

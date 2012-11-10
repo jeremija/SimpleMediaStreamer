@@ -1,0 +1,163 @@
+<resources>
+    <string name="app_name">Simple Media Streamer</string>
+    
+    <!-- streamer_layout -->
+    <string name="streamer_title">**title**</string>
+    <string name="streamer_author">**author**</string>
+    <string name="streamer_album">**album**</string>
+    <string name="streamer_time_progress">00:00</string>
+    <string name="streamer_time">99:99</string>
+    <string name="streamer_url">URL to stream from</string>
+    
+    <string name="streamer_play_button">Play</string>
+    <string name="streamer_pause_button">Pause</string>
+    <string name="streamer_stop_button">Stop</string>
+    <string name="streamer_next_button">Next</string>
+    
+    <string name="streamer_love_button">Love</string>
+    <string name="streamer_unlove_button">Unlove</string>
+    <string name="streamer_ban_button">Ban</string>
+    <string name="streamer_unban_button">Unban</string>
+    
+    <string name="streamer_lastfm_login_button">Last.fm login</string>
+    <string name="streamer_lastfm_tune_in_button">Last.fm tune in</string>
+    <string name="streamer_station_url">Station url</string>
+    <!-- <string name="streamer_station_url_default">lastfm://artist/deep purple/similarartists</string> -->
+    <string name="streamer_station_url_default">lastfm://</string>
+    
+    <string name="streamer_console_first_text">Hello!</string>
+    
+    <!-- tune in dialog -->
+    <string name="tunein_title">Tune in</string>
+    <string name="tunein_negative">Cancel</string>
+    <string name="tunein_positive">Tune</string>
+    
+    <!-- streamer_menu -->
+    <string name="streamer_menu_login">Login</string>
+    <string name="streamer_menu_tune">Tune in</string>
+    <string name="streamer_menu_playlist">Playlist</string>
+    <string name="streamer_menu_test">Fetch artist info</string>
+    <string name="streamer_menu_about">About</string>
+    <string name="streamer_menu_close">Close</string>
+    
+    <!-- playlist_layout -->
+    <string name="playlist_empty">Playlist is empty</string>
+    <string name="playlist">Playlist</string>
+    
+    <!-- playlist_item_layout -->
+    <string name="track_title">Track title</string>
+    <string name="track_author">Track author</string>
+    <string name="track_url">Track url</string>
+    <string name="track_playing_content_desc">playing</string>
+    
+    <!-- info_layout -->
+    <string name="info_loading_title">Loading data</string>
+    <string name="info_loading_msg">Please wait!</string>
+    
+    <string name="info_menu_search">Search artist</string>
+    <string name="info_menu_play">Play radio</string>
+    <!--  additional menu items -->
+    <string name="info_menu_view_tracks">View tracks</string>
+    <string name="info_menu_open_artist">Open artist\'s page</string>
+    <string name="info_menu_open_album">Open album\'s page</string>
+    
+    <string name="info_dialog_search">Search artist</string>
+	<string name="info_dialog_positive">Search</string>
+	<string name="info_dialog_negative">Cancel</string>   
+	
+	<string name="info_type_artist">Artist</string>
+	<string name="info_type_album">Album</string>
+	<string name="info_type_track">Track</string>
+	<string name="info_type_tag">Tag</string>
+	
+	<string name="info_tracks_from_album">Tracks from album </string>
+    
+    <!-- lastfm_authenticator_layout -->
+    <string name="lastfm_username">username</string>
+    <string name="lastfm_session">sessionId</string>
+    <string name="lastfm_signature">signature</string>
+    <string name="lastfm_subscriber">subscriber</string>
+    
+    <string name="lastfm_login">Login</string>
+    <string name="lastfm_logout">Logout</string>
+    
+    <string name="lastfm_login_alert_title">Please wait</string>
+    <string name="lastfm_login_alert_message">A new browser window should have popped out with
+        a Last.fm authorization request for this application. Please click Continue only after
+        you have authorized the app!</string>
+    <string name="lastfm_login_alert_continue">Continue</string>
+    
+    <string name="lastfm_low_bitrate">Low bitrate</string>
+    
+    <!-- tunein_layout -->
+    <string name="tunein_station_input_hint_url">URL (lastfm://)</string>
+    <string name="tunein_station_input_hint_artist">Artist</string>
+    <string name="tunein_station_input_hint_user">Username</string>
+    <string name="tunein_station_input_hint_tag">Tag</string>
+    
+    <string name="tunein_popup_history">Popup station history</string>
+    
+    <!-- about_layout -->
+    <string name="about_station_name">Name</string>
+    <string name="about_station_type">Type</string>
+    <string name="about_station_url">URL</string>
+    <string name="about_station_discovery">Discovery</string>
+    <string name="about_current_track_url">Track url</string>
+    <string name="about">Station info</string>
+    <string name="about_author">Created by Jerko Steiner</string>
+    
+    
+    <!-- console -->
+    <string name="console">Console</string>
+    <string name="console_close">Close</string>
+    <string name="console_refreshed">Console refreshed</string>
+    <string name="console_clear">Clear</string>
+    
+	<!-- phone state changes -->
+	<string name="phone_state_will_pause">Auto-pausing playback because
+	    there was a change in phone state</string>
+	<string name="phone_state_will_resume">Auto-resuming playback to a previous state because
+	    there was a change in phone state</string>
+    
+    <!-- error/success messages -->
+    
+    <string name="feature_not_available_here">Feature not available here</string>
+    
+    <string name="error_downloading_image">Unable to download image</string>
+    <string name="error_fetching_artist_info">Error fetching artist info</string>
+    
+    <string name="error_already_playing">Already playing, stop first!</string>
+    <string name="error_unknown_error">Unknown error!</string>
+    <string name="error_illegal_state">Player is in an illegal state!</string>
+    <string name="error_track_is_null">Track is null!</string>
+    <string name="error_no_next_track">No next track!</string>
+    <string name="error_track_not_found_in_playlist">Track not found in playlist!</string>
+    
+    <string name="error_not_logged_in">User not found! Have you logged in?</string>
+
+    <string name="error_failed_to_love_track">Failed to love/unlove/ban/unban track!</string>
+    <string name="success_love">Track loved!</string>
+    <string name="success_unlove">Track unloved!</string>
+    <string name="success_ban">Track banned!</string>
+    <string name="success_unban">Track ban removed!</string>
+    
+    <string name="error_cannot_play_previous_track">Cannot play previous track!</string>
+    <string name="error_playlist_is_empty">Playlits is empty!</string>
+    <string name="error_station_is_null">Error while fetching station!</string>
+    <string name="error_playlist_index_out_of_bounds">Playlist index out of bounds!</string>
+    <string name="error_authenticating_user">There has been an error while 
+        authenticating user!</string>
+    <string name="error_authenticating_token">There has been an error while fetching
+        authentication token!</string>
+    
+    <string name="scrobble_error">Scrobbling failed!</string>
+    <string name="scrobble_success">Track scrobbled!</string>
+    
+    <string name="station_tune_success">Station tuned</string>
+    <string name="station_tune_failed">Failed to tune to station, see console log.</string>
+    
+    <!-- layout stuff -->
+    <string name="similar_artists_width">80dp</string>
+    <string name="similar_artists_width_land">120dp</string>
+
+</resources>

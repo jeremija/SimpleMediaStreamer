@@ -1,0 +1,97 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hr.jsteiner.simplemediastreamer"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="15" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application 
+    	android:name="hr.jsteiner.simplemediastreamer.ApplicationEx"
+    	android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher"
+        android:theme="@android:style/Theme.Holo">
+        
+        <activity android:name=".StreamerActivity">
+        	<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+	            <category android:name="android.intent.category.LAUNCHER"/>
+        	</intent-filter>
+        	<intent-filter>
+        	  	<action android:name="android.intent.action.VIEW"/>
+		    	<category android:name="android.intent.category.DEFAULT"/>
+		    	<category android:name="android.intent.category.BROWSABLE" />
+		    	<data android:scheme="lastfm" android:pathPattern="*" />
+        	</intent-filter>
+        </activity>
+        
+        <activity android:name=".LastfmLoginActivity"
+        	android:exported="false">
+        </activity>
+        
+        <activity android:name=".PlaylistActivity"
+        	android:exported="false">
+       	</activity>
+       	
+       	<activity android:name=".lastfm.ArtistInfoActivity"
+       		android:exported="false">
+       	</activity>
+       	
+        <activity android:name=".lastfm.AlbumInfoActivity"
+       		android:exported="false">
+       	</activity>
+       	
+      	<activity android:name=".lastfm.TrackInfoActivity"
+       		android:exported="false">
+      	</activity>
+
+       	<activity android:name=".lastfm.TagInfoActivity"
+       		android:exported="false">
+      	</activity>
+      	
+      	<activity android:name=".lastfm.LastfmInfoMediator"
+      		android:exported="true" android:theme="@android:style/Theme.NoDisplay">
+      		<intent-filter>
+		    	<action android:name="android.intent.action.VIEW"/>
+		    	<category android:name="android.intent.category.DEFAULT"/>
+		    	<category android:name="android.intent.category.BROWSABLE" />
+		    	<data android:scheme="http" android:host="www.last.fm"
+		    		android:pathPattern="/.*"/>
+		    </intent-filter>
+      	</activity>
+       	
+       	<service android:name=".StreamerService">
+       		<intent-filter>
+       			<action android:name="ACTION_TUNE_IN" />
+       		</intent-filter>
+       		<intent-filter>
+       			<action android:name="ACTION_PLAY" />
+       		</intent-filter>
+       		<intent-filter>
+       			<action android:name="ACTION_PAUSE" />
+       		</intent-filter>
+       		<intent-filter>
+       			<action android:name="ACTION_STOP" />
+       		</intent-filter>
+       		<intent-filter>
+       			<action android:name="ACTION_NEXT" />
+       		</intent-filter>
+       		<intent-filter>
+       			<action android:name="ACTION_NEXT_WITH_INDEX" />
+       		</intent-filter>
+       		<intent-filter>
+       			<action android:name="ACTION_LOVE_TRACK" />
+       		</intent-filter>
+       		<intent-filter>
+       			<action android:name="ACTION_GET_PLAYLIST" />
+       		</intent-filter>
+       		<intent-filter>
+       			<action android:name="ACTION_GET_CURRENT_TRACK" />
+       		</intent-filter>
+       	</service>
+		
+    </application>
+
+</manifest>

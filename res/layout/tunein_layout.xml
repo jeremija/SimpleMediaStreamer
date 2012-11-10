@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:longClickable="false" >
+
+        <AutoCompleteTextView
+            android:id="@+id/tuneinStationParamsInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/tunein_station_input_hint_url"
+            android:text="@string/streamer_station_url_default" >
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <ImageButton
+            android:id="@+id/buttonPopupHistory"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:cacheColorHint="#00000000"
+            android:contentDescription="@string/tunein_popup_history"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:src="@android:drawable/ic_menu_more" />
+
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinnerTuneinStationType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

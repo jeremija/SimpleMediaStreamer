@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="tunein_station_type">
+        <item>URL</item>
+        <item>Artist: similar</item>
+        <item>Artist: top fans</item>
+        <item>User: Library</item>
+        <item>User: Mix</item>
+        <item>User: Recommendation</item>
+        <item>User: Neighbours</item>
+        <item>Global tags</item>
+        <item>Tag</item>
+    </string-array>
+</resources>
